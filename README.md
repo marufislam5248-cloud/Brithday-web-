@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Message</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOTHA ❤️</title>
 
-<style>
-body{
-    margin:0;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:100vh;
-    background:#111;
-    color:#fff;
-    font-family:Arial, sans-serif;
-}
-
-h1{
-    font-size:50px;
-    text-align:center;
-    animation: glow 1.5s infinite alternate;
-}
-
-@keyframes glow{
-    from{
-        color:#fff;
-        text-shadow:0 0 10px #fff;
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      font-family: Arial, sans-serif;
     }
-    to{
-        color:#ff3b3b;
-        text-shadow:0 0 25px #ff3b3b;
+
+    .love {
+      text-align: center;
+      color: white;
+      font-size: 42px;
+      font-weight: bold;
+      text-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      animation: heartbeat 1.2s infinite;
     }
-}
-</style>
+
+    @keyframes heartbeat {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.08);
+      }
+    }
+  </style>
 </head>
 
 <body>
-<h1>welcome to my website its me Maruf</h1>
+
+  <div class="love">
+    KOTHA LOVEEEEEE UUUUUU 😘🫶
+  </div>
+
 </body>
-</html>
+</html>b
